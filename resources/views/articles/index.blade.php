@@ -14,10 +14,13 @@
     @foreach ($articles as $article)
         <p>
             <a href="articles/{{ $article->id }}">
-            {{ $article->title }}
+                {{ $article->title }}
             </a>
         </p>
     @endforeach
+    <button onclick="location.href='/articles/create'">
+        新規論文投稿
+    </button>
 </body>
 
 </html>
