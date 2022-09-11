@@ -18,7 +18,7 @@
              <textarea name="body" class="body">{{ old('body') }}</textarea>
          </p>
 
-         <input type="submit" value="新規論文投稿">
+         <input type="submit" value="投稿">
      </form>
 </body>
 </html>
