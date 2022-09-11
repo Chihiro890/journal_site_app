@@ -48,7 +48,9 @@ class ArticleController extends Controller
      */
     public function show($id)
     {
-        //
+        //$idで検索したデータをビューへ渡す
+        $article = Article::find($id);
+        return view('article.show',['article' => $article]);
     }
 
     /**
